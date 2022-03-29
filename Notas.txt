@@ -1,0 +1,124 @@
+Como funciona git
+
+
+
+git esta conformado por brand siginifica que tenemos ramificaciones para nuestros repositorios
+
+Cada rama representa el estado del codigo en determiando momento 
+
+se pueden realizar copias en distintos momentos del proyecto y luego trabajar con las mismas 
+
+https://docs.github.com/es/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop
+
+
+Si estamos en el inicio con la instalacion nos va a salir el curso de git y dentro de lo mismo nos va  a salir la opcion del repositorio a clonar 
+
+El local path es la direccion donde va  aclonar el repositorio
+
+y cuando continuamos ya tenemos hecho la descargar del proyecto
+
+Vamos a ver una vez que abrimos y realizamos cambios nos van a salir en el changed de el desktop
+
+Y una vez que hicimos los cambios vamos a agrergar el commit y luego seleccionamos el push origin
+
+Cada coommit tiene un identificador que esta definido con el numero superior 
+
+En el costado superior vemos que esta el history 
+
+Van a ver en rojo el codigo que se cambio o se afecto 
+
+y en verde el agregado
+
+----------------------
+
+Vemos en la parte superior que estamos parados en el main 
+
+Si seleccionamos el change branch podemos hacer una nueva 
+
+una vez que la generamos podemos subirla luego de hacer las modificaciones que querramos
+
+Generadas las mofdificaciones vamos a ir a commitear las mismas y realizamos el publish de la rama 
+
+
+En el simbolo superirior del git nos sale el publish branch y en estos casos tenemos 
+las ramas de cada programador 
+
+---------------
+
+
+Si queremos llevar esto a la rama principal 
+
+Vamos a tocar en el pull request y nos va  a indicar con las flechas el recorrido 
+
+osea del compare llevarlos a la base 
+
+El pull request es como un pedido de que se unifiquen dos ramas 
+
+En estos casos nos va  a dar el ok cuando se haga el marge pull request
+
+el mismo por lo general se lod a a otro porgamador
+
+en el costado derecho lo hacemos ocn el assign
+
+Entonces en el merge voy a ver el cambio que se genero 
+
+Y si queremos ver que fue lo que se agrego vamos a ir al desktop
+
+en la seccion de branch seleccionamos 
+
+
+
+---------------------------------------
+
+cunado hacemos un fetch estamos trayendo todos los brand que tenemos dispibles del proyecto 
+
+haceindo un pull traermos los cambios que hayan en ese brunch
+
+luego hacemos el uso del add que no se ve en la interfaz
+
+luego hacemos el commit 
+
+y luego el push para subir 
+
+el reset nos sirve para dejar el estado original de la rama 
+
+con el checkout nos sirve para cambiar de rama 
+
+Cuales son las ramas que podemos tener en un proyecto
+
+------------------
+
+Main->Codigo principal
+
+
+Hotflix->El programa ya funcional hasta cierto punto se deja igual en un Hotflix como soporte
+
+
+Develop->Nuevas funcionalidades que se queiran agregar 
+
+
+Future->Subramas para las funcionalidades
+
+En cada rama tendriamos que hacer ramas y subramas Feature
+
+Luego se realiza el coreview antes del pull request 
+
+El release es una nueva modificacion sin cambio
+
+Release -> Previo a hacer el merge 
+
+
+coview ->revision general del codigo para las personas 
+
+
+
+-------------------------
+
+
+Comandos del cambio al web 
+
+git remote add origin https://github.com/jeremontoya155/fibonacci 
+
+git branch -M main
+
+git push -u origin main
