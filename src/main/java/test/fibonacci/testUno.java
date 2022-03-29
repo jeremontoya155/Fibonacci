@@ -21,6 +21,7 @@ public class testUno {
         
         int rango=Integer.parseInt(JOptionPane.showInputDialog("Carga el rango:"));
         
+        System.out.println("El ingreso del rango fue:"+rango);
         
         Fibonacci(rango);
         
