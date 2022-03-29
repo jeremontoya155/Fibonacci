@@ -2,6 +2,7 @@
 package test.fibonacci;
 
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 
 public class testUno {
@@ -15,10 +16,11 @@ public class testUno {
         //n=7
         //0 1 1 2 3 5 8
         
-        
+        //Cambio el modo de carga de datos
         //int rango=cargarNumero("Ingrese el rango de fibonacci");
         
-        int rango=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el numero que desee:"));
+        int rango=Integer.parseInt(JOptionPane.showInputDialog("Carga el rango:"));
+        
         
         Fibonacci(rango);
         
